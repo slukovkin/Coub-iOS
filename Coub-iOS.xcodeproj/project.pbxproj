@@ -11,6 +11,7 @@
 		12CA649A2B8938AF0099143D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CA64992B8938AF0099143D /* ContentView.swift */; };
 		12CA649C2B8938B10099143D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CA649B2B8938B10099143D /* Assets.xcassets */; };
 		12CA649F2B8938B10099143D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CA649E2B8938B10099143D /* Preview Assets.xcassets */; };
+		12CA64A92B8940940099143D /* ButtonMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CA64A82B8940940099143D /* ButtonMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		12CA649B2B8938B10099143D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12CA649E2B8938B10099143D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12CA64A02B8938B10099143D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CA64A82B8940940099143D /* ButtonMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		12CA64962B8938AF0099143D /* Coub-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				12CA64A72B8940700099143D /* View */,
 				12CA64972B8938AF0099143D /* Coub_iOSApp.swift */,
 				12CA64992B8938AF0099143D /* ContentView.swift */,
 				12CA649B2B8938B10099143D /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				12CA649E2B8938B10099143D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12CA64A72B8940700099143D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12CA64A82B8940940099143D /* ButtonMenu.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				12CA649A2B8938AF0099143D /* ContentView.swift in Sources */,
 				12CA64982B8938AF0099143D /* Coub_iOSApp.swift in Sources */,
+				12CA64A92B8940940099143D /* ButtonMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.com.all4drive.Coub-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ua.com.all4drive.Coub-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
